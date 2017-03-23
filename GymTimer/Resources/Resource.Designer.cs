@@ -57,6 +57,25 @@ namespace GymTimer
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int FirstTextView = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int btnTimerStart = 2131034113;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
@@ -81,6 +100,9 @@ namespace GymTimer
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int btnTimerStart = 2130968578;
 			
 			static String()
 			{

@@ -2,6 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
+    <TextView xmlns:a="http://schemas.android.com/tools"
+        android:text="@string/Hello"
+        android:id="@+id/FirstTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnTimerStart"
+        android:text="@string/btnTimerStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OnClick"/>
 </LinearLayout>
